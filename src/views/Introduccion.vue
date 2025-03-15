@@ -5,7 +5,7 @@
 
     .row.align-items-center.mb-4
       .col-lg-4.mb-3.mb-lg-0(data-aos="fade-rigth")
-        .bg-color-1.p-4.h-100.tarjeta
+        .bg-color-1.px-4.py-5.h-100.tarjeta
           p La evaluación de proyectos, es una herramienta indispensable para analizar la viabilidad y rentabilidad de iniciativas financieras y de inversión. Esta unidad está diseñada para que los estudiantes adquieran los conocimientos y las habilidades necesarios para aplicar técnicas cuantitativas que respalden la toma de decisiones en diversos contextos económicos y empresariales.
       .col-lg-4.mb-3.mb-lg-0(data-aos="fade-rigth")
         figure.mb-4.mb-lg-0

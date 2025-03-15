@@ -369,155 +369,168 @@ export default {
           {
             id: 1,
             texto:
-              '¿Cuál de las siguientes es una característica fundamental de los derechos humanos?',
+              '¿Cuál es la función principal del Valor Presente Neto (VPN)?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Son temporales y cambiantes',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Son universales y aplican a todas las personas',
+                texto:
+                  'Medir la rentabilidad de un proyecto en términos absolutos.',
                 esCorrecta: true,
               },
               {
+                id: 'b',
+                texto:
+                  'Comparar inversiones en función de su tiempo de recuperación.',
+                esCorrecta: false,
+              },
+              {
                 id: 'c',
-                texto: 'Son exclusivos de ciertos grupos',
+                texto:
+                  'Determinar la cantidad exacta de inversión necesaria para un proyecto.',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Son opcionales',
+                texto: 'Identificar si un proyecto tiene costos ocultos.',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_correcto:
+              'El VPN permite evaluar la rentabilidad absoluta de un proyecto descontando los flujos de efectivo futuros a valor presente.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
           {
             id: 2,
-            texto:
-              '¿Cuál de las siguientes afirmaciones sobre la diversidad cultural es correcta?',
+            texto: '¿Qué sucede si el VPN de un proyecto es igual a cero?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Fomenta la homogeneización cultural',
+                texto: 'El proyecto genera pérdidas.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Promueve el respeto y la aceptación de las diferencias',
+                texto: 'No hay ganancia ni pérdida, es un punto de equilibrio.',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Debilita la identidad cultural de los pueblos',
+                texto: 'Es preferible no ejecutar el proyecto.',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Limita las oportunidades de interacción',
+                texto: 'Indica que la inversión inicial debe aumentar.',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_correcto:
+              'Un VPN de cero significa que el proyecto recupera su inversión sin generar pérdidas ni ganancias adicionales.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
           {
             id: 3,
             texto:
-              'La mediación en un conflicto tiene como objetivo principal:',
+              '¿Qué representa el Índice de Rentabilidad (IR) en la evaluación de proyectos?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Imponer una solución rápida',
+                texto: 'El porcentaje de ganancia sobre la inversión inicial.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Facilitar el diálogo entre las partes',
-                esCorrecta: true,
+                texto:
+                  'La relación entre los ingresos y los costos operativos.',
+                esCorrecta: false,
               },
               {
                 id: 'c',
-                texto: 'Determinar la culpabilidad',
-                esCorrecta: false,
+                texto:
+                  'La rentabilidad relativa de un proyecto en comparación con su inversión.',
+                esCorrecta: true,
               },
               {
                 id: 'd',
-                texto: 'Ignorar las preocupaciones de una parte',
+                texto: 'La diferencia entre el VPN y la TIR.',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_correcto:
+              'El IR mide la relación entre el valor generado por un proyecto y su inversión inicial, permitiendo comparar la rentabilidad relativa de diferentes opciones.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
           {
             id: 4,
-            texto: 'En un foro comunitario, es importante:',
+            texto: '¿Cómo afecta la tasa de descuento al cálculo del VPN?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Escuchar solo a las autoridades',
+                texto: 'A mayor tasa de descuento, mayor será el VPN.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Fomentar la participación de todos los miembros',
+                texto: 'Una tasa de descuento más alta reduce el VPN.',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Decidir por votación sin consultar a los demás',
+                texto: 'La tasa de descuento no tiene efecto en el VPN.',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Excluir las opiniones de los más jóvenes',
+                texto:
+                  'Un cambio en la tasa de descuento solo afecta la inversión inicial.',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_correcto:
+              'A medida que la tasa de descuento aumenta, los flujos de efectivo futuros se reducen en términos de valor presente, disminuyendo el VPN.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
           {
             id: 5,
-            texto:
-              '¿Qué busca la justicia restaurativa en el contexto de un conflicto?',
+            texto: '¿Qué mide la Tasa Interna de Retorno (TIR)?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Aplicar una sanción severa',
-                esCorrecta: false,
+                texto:
+                  'La rentabilidad esperada de un proyecto expresada en porcentaje.',
+                esCorrecta: true,
               },
               {
                 id: 'b',
-                texto: 'Reparar el daño y restablecer las relaciones',
+                texto:
+                  'El tiempo necesario para recuperar la inversión inicial.',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Castigar a las partes involucradas',
+                texto:
+                  'El rendimiento absoluto de un proyecto sin considerar su escala.',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Ignorar el contexto del conflicto',
+                texto:
+                  'La cantidad de efectivo generada por un proyecto cada año.',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_correcto:
+              'La TIR representa la tasa a la que el VPN es igual a cero, reflejando la rentabilidad porcentual del proyecto.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
         ],
