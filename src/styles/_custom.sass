@@ -17,13 +17,17 @@
 
 .bg-color
   &-1
-    background-color: #EAF8FD
+    background-color: #D6F5FB
   &-2
-    background-color: #FFFBE8
+    background-color: #E6F0CD
   &-3
-    background-color: #F0E9F6
+    background-color: #FFEBD0
   &-4
-    background-color: #EAF8FD
+    background-color: #F6F3EF !important
+  &-5
+    background-color: #E2DACC !important
+  &-6
+    color: #496406 !important
   &-info
     background-color: #E8EEFD
   &-sintesis
@@ -51,13 +55,13 @@
 
 .bg-fondo
   &-1
-    background-image: url("../assets/bg/bg1.png") !important
+    background-image: url("../assets/bg/bg1.svg") !important
     background-position: top
   &-2
     // background-image: url("../assets/bg/bg2.png") !important
     background-position: bottom
   &-slider
-    background-image: url("../assets/bg/bg-slider.png") !important
+    background-image: url("../assets/bg/bg-slider.svg") !important
     background-position: bottom
 
 // Variables
@@ -97,15 +101,15 @@ $custom-card-img-height: 322px
 
 
 .acordion__header
-  background-color: lighten($color-acento-contenido, 25%) !important
+  background-color: lighten($color-secundario, 35%) !important
 
 .acordion__header--active
-  background-color: $color-acento-contenido !important
+  background-color: $color-secundario !important
   h4, i
     color: #000 !important
 
 .acordion__contenido
-  background-color: lighten($color-acento-contenido, 27%) !important
+  background-color: lighten($color-secundario, 37%) !important
 
 
 .anexo__texto
@@ -186,16 +190,16 @@ $custom-card-img-height: 322px
   .linea-tiempo-d__item__content__title
     padding: 28px
     border-radius: 5px 5px 0px 0px
-    background-color: lighten($color-primario, 30%)
+    background-color: lighten($color-secundario, 30%)
   .linea-tiempo-d__item__content__title.active
-    background-color: $color-primario !important
+    background-color: $color-secundario !important
   .linea-tiempo-d__item__content__slot
     border-radius: 0px 0px 5px 5px
-    background-color: lighten($color-primario, 37%) !important
+    background-color: lighten($color-secundario, 37%) !important
   .linea-tiempo-d__item__number
-    background-color: lighten($color-primario, 30%)
+    background-color: lighten($color-secundario, 30%)
   .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
-    background-color: $color-primario !important
+    background-color: $color-secundario !important
   .linea-tiempo-d__item__dots:after
     border-left: 0px
   .fa-angle-up, .fa-angle-down

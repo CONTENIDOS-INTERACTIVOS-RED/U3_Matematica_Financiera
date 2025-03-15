@@ -1,7 +1,7 @@
 export default {
   global: {
     numeroUnidad: '3',
-    tituloUnidad: 'Bioética y sostenibilidad en el desarrollo económico global',
+    tituloUnidad: 'Evaluación de proyectos',
   },
   menuPrincipal: {
     menu: [
@@ -15,47 +15,27 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Título tema',
+        titulo: 'VPN',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_1_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Título tema',
+        titulo: 'TIR y TIRA',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Subtítulo tema',
+            titulo: 'TIR',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Subtítulo tema',
+            titulo: 'TIRA',
             hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_3',
           },
         ],
       },
@@ -63,22 +43,8 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Título tema',
+        titulo: 'Formulación financiera en Excel',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_3_2',
-          },
-        ],
       },
       {
         nombreRuta: 'sintesis',
@@ -118,26 +84,109 @@ export default {
   referencias: [
     {
       referencia:
-        'Ardaraz, M. (2002). Teoría de las tres dimensiones de desarrollo sostenible: . Ecosistemas, 11(2)',
+        'Banco de España. (2023). Conceptos básicos de inversión y rentabilidad: Valor Presente Neto (VPN).',
       link:
-        'https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/614',
+        'https://clientebancario.bde.es/pcb/es/menu-horizontal/productosservici/inversionrentabilidad/valorpresente',
     },
     {
       referencia:
-        'Beltrán, D. J. (2002). La estrategia de desarrollo sostenible de la Unión Europea en el contexto global: de Río a Johannesburgo. ICE. Revista de Economía, (800).',
-      link: '',
+        'Universidad Estatal de Milagro. (2019). Valor Actual Neto y Tasa Interna de Retorno como parámetros de evaluación de las inversiones. Revista Investigación Operacional, 40(4), 469-474.',
+      link:
+        'https://sga.unemi.edu.ec/media/evidenciasiv/2019/07/30/articulo_2019730122917.pdf',
+    },
+    {
+      referencia:
+        'Puga Muñoz, M. (s.f.). Valor Actual Neto y Tasa Interna de Retorno (VAN y TIR). Departamento de Auditoría y Sistemas de Información.',
+      link:
+        'https://accioneduca.org/admin/archivos/clases/material/valor-actual-neto-y-tasa-interna-de-retorno-van-y-tir_1563977885.pdf',
+    },
+    {
+      referencia:
+        'Universitat Oberta de Catalunya. (2022). Los métodos VAN y TIR en la valoración de los proyectos de inversión.',
+      link:
+        'https://openaccess.uoc.edu/bitstream/10609/150126/2/LosMetodosVANyTIREnLaValoracionDeLosProyectosDeInversion.pdf',
+    },
+    {
+      referencia:
+        'Meza, J. (2013). Matemáticas financieras aplicadas: uso de las calculadoras financieras y EXCEL: (5 ed.). Ecoe Ediciones. ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/114356',
+    },
+    {
+      referencia:
+        'Rodríguez Franco, J. & Pierdant Rodríguez, A. I. (2016). Matemáticas financieras con aplicaciones en Excel: ( ed.). Grupo Editorial Patria. ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/40427',
     },
   ],
   glosario: [
     {
-      termino: 'Bioética',
+      termino: 'Análisis de Rentabilidad',
       significado:
-        'disciplina que estudia las implicaciones éticas, sociales y legales de los avances biológicos y médicos, buscando garantizar que las decisiones en estos campos respeten la dignidad humana, los derechos fundamentales y la justicia social.',
+        'Proceso de evaluación de la viabilidad económica de un proyecto mediante indicadores financieros como VPN y TIR.',
     },
     {
-      termino: '<em>Design Thinking</em>',
+      termino: 'Costo de Capital',
       significado:
-        'método de diseño centrado en el usuario que se basa en la comprensión de las necesidades y expectativas de los clientes, para crear soluciones innovadoras y efectivas.',
+        'Tasa de retorno mínima requerida por los inversionistas para financiar un proyecto o empresa.',
+    },
+    {
+      termino: 'Crecimiento Compuesto',
+      significado:
+        'Aumento progresivo del capital debido a la reinversión de intereses o ganancias generadas en cada período.',
+    },
+    {
+      termino: 'Descuento de Flujos de Efectivo',
+      significado:
+        'Método financiero para calcular el valor presente de los ingresos futuros considerando una tasa de descuento.',
+    },
+    {
+      termino: 'Evaluación Financiera',
+      significado:
+        'Proceso de análisis que permite determinar la viabilidad económica de un proyecto o inversión.',
+    },
+    {
+      termino: 'Factores de Descuento',
+      significado:
+        'Coeficientes aplicados para traer a valor presente los flujos de efectivo futuros de una inversión.',
+    },
+    {
+      termino: 'Flujo de Ingresos',
+      significado:
+        'Cantidad de dinero generada por un proyecto o empresa en un período determinado.',
+    },
+    {
+      termino: 'Índice de Rentabilidad (IR)',
+      significado:
+        'Indicador financiero que mide el beneficio generado por cada unidad monetaria invertida en un proyecto.',
+    },
+    {
+      termino: 'Inversión Inicial',
+      significado:
+        'Monto de dinero requerido al inicio de un proyecto para su puesta en marcha.',
+    },
+    {
+      termino: 'Método de Valoración',
+      significado:
+        'Técnicas utilizadas para evaluar la rentabilidad y viabilidad financiera de una inversión.',
+    },
+    {
+      termino: 'Periodo de Recuperación Descontado',
+      significado:
+        'Tiempo necesario para recuperar la inversión inicial considerando el valor del dinero en el tiempo.',
+    },
+    {
+      termino: 'Riesgo Financiero',
+      significado:
+        'Probabilidad de que una inversión no genere los rendimientos esperados o incurra en pérdidas.',
+    },
+    {
+      termino: 'Tasa de Corte',
+      significado:
+        'Tasa de referencia utilizada para evaluar la rentabilidad de un proyecto mediante el descuento de flujos de efectivo.',
+    },
+    {
+      termino: 'Umbral de Rentabilidad',
+      significado:
+        'Nivel mínimo de ingresos que un proyecto debe generar para cubrir sus costos y no incurrir en pérdidas.',
     },
   ],
 }
