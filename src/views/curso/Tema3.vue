@@ -9,11 +9,9 @@
 
       
         .row.justify-content-center.align-items-center
-          .col-lg-6
-            p(data-aos="fade-left").mb-4 Para conocer sobre los fundamentos de la innovación estratégica, lo invitamos a escuchar el siguiente podcast.
-    
+          .col-lg-6    
             TarjetaAudio.color-acento-botones.bg-color-white.mb-3(
-              texto="Fundamentos de la innovación estratégica"
+              texto="Formulación financiera en Excel"
               tiempo
               :audio="require('../../assets/curso/podcast/podcast1.mp3')"
               

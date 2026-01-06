@@ -488,10 +488,6 @@
               a(href="https://theinvestoru.com/blog/que-es-la-tir/ " target="_blank" rel="noopener noreferrer") The Investor U. (2023, 10 de julio). TIR: ¿Qué es la Tasa Interna de Retorno y para qué sirve?. 
 
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span Flórez Uribe, J. A. (2011). Matemáticas financieras empresariales
-
-            p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
               a(href="https://www.youtube.com/watch?v=hOY9xZjl8dE " target="_blank" rel="noopener noreferrer") Andres Ricardo Riveros Tarazona. (2019, 21 de octubre). Indicador de evaluación de proyectos: Tasa Interna de Retorno - TIR [Vídeo]. YouTube. 
             p.d-flex.my-4
